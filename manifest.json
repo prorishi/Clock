@@ -1,6 +1,7 @@
 {
     "name": "Clock",
     "start_url": "./index.html",
+    "scope": "./",
     "display": "standalone",
     "background_color": "#dd0",
     "theme_color": "#dd0",

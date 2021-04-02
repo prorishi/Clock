@@ -9,7 +9,7 @@ if (serviceWorker) {
 let beforeInstallEvent;
 const installButton = document.getElementById("install");
 
-window.addEventListener('beforeinstallprompt',  (event) => {
+window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
     beforeInstallEvent = event;
     installButton.style.display = "block";
