@@ -9,10 +9,10 @@ if (serviceWorker) {
 let beforeInstallEvent;
 const installButton = document.getElementById("install");
 
-window.onbeforeinstallprompt = (event) => {
+window.addEventListener('beforeinstallprompt',  (event) => {
     event.preventDefault();
     beforeInstallEvent = event;
     installButton.style.display = "block";
-};
+});
 
-installButton.onclick = () => beforeInstallEvent.prompt();
+installButton.addEventListener('click', () => beforeInstallEvent.prompt());
