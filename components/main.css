@@ -33,6 +33,7 @@ body {
     border: .3vh dashed #ffffe9;
     border-radius: .5em;
     padding: .8vh 1.2vh;
+    font-size: 2.5vh;
     color: #c9f374;
     cursor: pointer;
     background-color: #122d58;
