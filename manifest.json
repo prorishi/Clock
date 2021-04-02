@@ -1,0 +1,15 @@
+{
+    "name": "Clock",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#dd0",
+    "theme_color": "#dd0",
+    "icons": [
+        {
+            "src": "./components/clock.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}

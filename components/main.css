@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: monospace;
+    user-select: none;
+}
+
+#header {
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d085c;
+    z-index: 99;
+    box-shadow: 20px 20px;
+}
+
+#title {
+    padding-left: 2%;
+    font-size: 6vh;
+    font-weight: bold;
+    color: #f5375d;;
+}
+
+#install {
+    display: none;
+    margin-right: 2%;
+    border: .3vh dashed #ffffe9;
+    border-radius: .5em;
+    padding: .8vh 1.2vh;
+    color: #c9f374;
+    cursor: pointer;
+    background-color: #122d58;
+}
+
+#install:active {
+    background-color: #2b56a5;
+    color: beige;
+}
+
+#clocks {
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffb2;
+}
+
+#analog {
+    width: 40vh;
+    height: 40vh;
+    border: .9vh solid #00028d ;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 10px 20px 5px #00000033,0 -5px 20px 0 #00000030;
+    background-color: #f4faa1;
+}
+
+#analog > div {
+    width: 1vh;
+    position: absolute;
+    left: 19vh;
+    top: 19vh;
+    transform: translate(-50% -50%);
+    transform-origin: top;
+    border-radius: 2em;
+}
+
+#hour {
+    height: 10vh;
+    background-color: #16d135d3;
+}
+
+#minute {
+    height: 14vh;
+    background-color: #892be2c2;
+}
+
+#second {
+    height: 18vh;
+    background-color: #dc5314f1;
+}
+
+#digital {
+    font-size: 6vh;
+    text-shadow: 0 0 3px crimson;
+}

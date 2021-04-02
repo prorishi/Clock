@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <meta name="theme-color" content="#dd0" />
+
+        <title>Clock</title>
+
+        <link rel="stylesheet" href="./components/main.css" />
+        <link rel="manifest" href="./manifest.json" />
+        <link rel="shorcut icon" href="./components/clock.png" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="./components/clock.png" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">Clock</div>
+            <div id="install">Install App</div>
+        </div>
+
+        <div id="clocks">
+            <div id="analog">
+                <div id="second"></div>
+                <div id="minute"></div>
+                <div id="hour"></div>
+            </div>
+            <div id="digital"></div>
+        </div>
+
+        <script src="./components/main.js"></script>
+        <script src="./components/pwaHandler.js"></script>
+    </body>
+</html>
