@@ -6,11 +6,14 @@ let urlsToCache = [
     "/",
     "/index.html",
     "/components",
-    "/components/favicon.png", 
-    "/components/clock-face.png",
-    "/components/main.css", 
-    "/components/main.js", 
-    "/components/pwa-handler.js"
+    "/components/images",
+    "/components/images/favicon.png", 
+    "/components/images/clock-face.png",
+    "/components/scripts",
+    "/components/scripts/main.js", 
+    "/components/scripts/pwa-handler.js",
+    "/components/styles",
+    "/components/styles/main.css"
 ];
 
 // Cache all the selected items once application is installed.
