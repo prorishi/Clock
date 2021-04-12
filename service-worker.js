@@ -5,12 +5,14 @@ console.log('helo');
 
 // Select files for caching.
 let urlsToCache = [
-    "./index.html", 
-    "./components/favicon.png", 
-    "./components/clock-face.png",
-    "./components/main.css", 
-    "./components/main.js", 
-    "./components/pwa-handler.js"
+    "/",
+    "/index.html",
+    "/components",
+    "/components/favicon.png", 
+    "/components/clock-face.png",
+    "/components/main.css", 
+    "/components/main.js", 
+    "/components/pwa-handler.js"
 ];
 
 // Cache all the selected items once application is installed.
