@@ -1,13 +1,12 @@
 {
     "name": "Clock",
     "start_url": "./",
-    "scope": "./",
     "display": "standalone",
-    "background_color": "#dd0",
-    "theme_color": "#dd0",
+    "background_color": "#0d085c",
+    "theme_color": "#0d085c",
     "icons": [
         {
-            "src": "./components/clock.png",
+            "src": "./components/favicon.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any maskable"

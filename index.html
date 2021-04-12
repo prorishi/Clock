@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Some basic meta tags. -->
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
-        <meta name="theme-color" content="#dd0" />
+        <meta name="viewport" content="width=device-width, height=device-height,user-scalable=no, initial-scale=1.0" />
+
+        <!-- This one is important for the manifest. -->
+        <meta name="theme-color" content="#0d085c" />
 
         <title>Clock</title>
 
+        <!-- Reference the StyleSheet. -->
         <link rel="stylesheet" href="./components/main.css" />
+
+        <!-- Reference the manifest file; is must for PWA. -->
         <link rel="manifest" href="./manifest.json" />
-        <link rel="shorcut icon" href="./components/clock.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="./components/clock.png" />
+
+        <!-- Reference the icons -->
+        <link rel="shorcut icon" href="./components/favicon.png" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="./components/favicon.png" />
     </head>
     <body>
         <div id="header">
@@ -28,7 +36,8 @@
             <div id="digital"></div>
         </div>
 
+        <!-- Reference the main and helper scripts. -->
         <script src="./components/main.js"></script>
-        <script src="./components/pwaHandler.js"></script>
+        <script src="./components/pwa-handler.js"></script>
     </body>
 </html>
