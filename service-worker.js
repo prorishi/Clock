@@ -1,8 +1,6 @@
 // Name of the Cache.
 const CACHE = "cacheV1";
 
-console.log('helo');
-
 // Select files for caching.
 let urlsToCache = [
     "/",

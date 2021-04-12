@@ -1,12 +1,15 @@
+// PWAs need HTTPS
+if (location.protocol != "https:") location.protocol == "https";
+
 // Reference the serviceWorker.
 const serviceWorker = navigator.serviceWorker;
 
 // Register our ServiceWorker script, if serviceWorker is available.
 if (serviceWorker) {
     serviceWorker
-        .register("./service-worker.js")
+        .register("/service-worker.js")
         .then(() => console.log("ServiceWorker Registered to the Application!"))
-        .catch((f) => console.log("Failed to Register the ServiceWorker.",f));
+        .catch(() => console.log("Failed to Register the ServiceWorker."));
 }
 
 // Create a variable to defer the beforeinstallprompt event.
