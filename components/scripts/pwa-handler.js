@@ -1,5 +1,5 @@
 // PWAs need HTTPS
-if (location.protocol != "https:") location.protocol == "https";
+// if (location.protocol != "https:") location.protocol == "https";
 
 // Reference the serviceWorker.
 const serviceWorker = navigator.serviceWorker;

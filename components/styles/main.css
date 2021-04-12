@@ -69,7 +69,7 @@ body {
     position: relative;
     box-shadow: 0px 10px 20px 5px #00000033,0 -5px 20px 0 #00000030;
     background-color: #f4faa1;
-    background-image: url(/components/clock-face.png);
+    background-image: url(/components/images/clock-face.png);
     background-position: center;
     background-size: cover;
 }
