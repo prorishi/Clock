@@ -1,8 +1,8 @@
 {
     "name": "Clock",
     "start_url": "./",
+    "scope": "./",
     "display": "standalone",
-    "background_color": "#0d085c",
     "theme_color": "#0d085c",
     "icons": [
         {
