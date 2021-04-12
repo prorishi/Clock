@@ -5,9 +5,7 @@ console.log('helo');
 
 // Select files for caching.
 let urlsToCache = [
-    "./",
-    "./index.html",
-    "./components", 
+    "./index.html", 
     "./components/favicon.png", 
     "./components/clock-face.png",
     "./components/main.css", 
